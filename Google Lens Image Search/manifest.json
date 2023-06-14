@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Google Lens Image Search",
+    "description": "Allows you to right click any image and search it utilizing Google Lens.",
+    "version": "1.0",
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+   "icons": {
+        "16": "images/icon-16.png", //favicon
+        "48": "images/icon-48.png", //extensions management icon
+        "128": "images/icon-128.png" //Web Store icon
+    },
+    "background": {
+        "service_worker": "main.js",
+        "type": "module"
+      }
+}
